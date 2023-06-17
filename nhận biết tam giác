@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+print('là tam giác đều', a==b and b==c )
+print('là tam giác cân', a==b or b==c or c==a)
+print('là tam giác vuông', a*a==b*b+c*c or b*b==a*a+c*c or c*c== a*a+b*b)
